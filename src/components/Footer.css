@@ -1,0 +1,102 @@
+.footer {
+    background-color: #045584;
+    color: #fff;
+    padding: 60px 0 0;
+  }
+  
+  .footer-widget {
+    margin-bottom: 30px;
+  }
+  
+  .footer-widget h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  .footer-widget p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+  }
+  
+  .contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .contact-info li i {
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  .quick-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .quick-links li {
+    margin-bottom: 10px;
+  }
+  
+  .quick-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .quick-links a:hover {
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    margin-top: 40px;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .social-links {
+    text-align: right;
+  }
+  
+  .social-links a {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 18px;
+    transition: opacity 0.3s;
+  }
+  
+  .social-links a:hover {
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      padding: 40px 0 0;
+    }
+  
+    .footer-bottom {
+      text-align: center;
+    }
+  
+    .social-links {
+      text-align: center;
+      margin-top: 15px;
+    }
+  
+    .social-links a {
+      margin: 0 8px;
+    }
+  }
