@@ -57,7 +57,7 @@ const useMedications = () => {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer YOUR_ACTUAL_TOKEN`,
+          'Authorization': `Bearer ${token}`,
         },
         body: JSON.stringify(updatedProduct),
       });
